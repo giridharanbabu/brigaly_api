@@ -10,7 +10,7 @@ app = FastAPI(title="MCP Review Server (Gemini)")
 
 detector = NudeDetector()
 
-UPLOAD_DIR = "temp_uploads"
+UPLOAD_DIR = "/tmp/temp_uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 @app.post("/review", response_model=ReviewResponse)
