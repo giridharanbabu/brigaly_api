@@ -3,4 +3,6 @@ uvicorn
 pydantic
 google-generativeai
 pillow
-nudenet
+numpy==1.26.4
+opencv-python-headless==4.8.1.78
+nudenet==3.0.8
